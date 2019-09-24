@@ -1,0 +1,252 @@
+[
+  {
+    "description": "加法测试，Cucumber 3.x 样例",
+    "keyword": "功能",
+    "name": "数学计算",
+    "line": 3,
+    "id": "数学计算",
+    "tags": [
+      {
+        "name": "@math",
+        "line": 2
+      }
+    ],
+    "uri": "features\\simple math.feature",
+    "elements": [
+      {
+        "id": "数学计算;简单数学计算",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "简单数学计算",
+        "tags": [
+          {
+            "name": "@math",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 7,
+            "name": "初始值设为 1",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 8,
+            "name": "现在再加 1",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 9,
+            "name": "结果为 2",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "数学计算;混合场景",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "混合场景",
+        "tags": [
+          {
+            "name": "@math",
+            "line": 2
+          },
+          {
+            "name": "@complex",
+            "line": 11
+          },
+          {
+            "name": "@math",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 13,
+            "name": "初始值设为 100",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 14,
+            "name": "现在再加 5",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 15,
+            "name": "结果为 105",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "数学计算;混合场景",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "混合场景",
+        "tags": [
+          {
+            "name": "@math",
+            "line": 2
+          },
+          {
+            "name": "@complex",
+            "line": 11
+          },
+          {
+            "name": "@math",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 13,
+            "name": "初始值设为 101",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 14,
+            "name": "现在再加 5",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 15,
+            "name": "结果为 106",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "数学计算;混合场景",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "混合场景",
+        "tags": [
+          {
+            "name": "@math",
+            "line": 2
+          },
+          {
+            "name": "@complex",
+            "line": 11
+          },
+          {
+            "name": "@math",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 13,
+            "name": "初始值设为 200",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 14,
+            "name": "现在再加 6",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 15,
+            "name": "结果为 205",
+            "match": {
+              "location": "features\\step_definitions\\definitions1.js:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "Error: 变量应该包含 205 但是包含了 206.\n    at World.<anonymous> (C:\\Users\\zyzhao\\Desktop\\mathtest\\features\\step_definitions\\definitions1.js:16:9)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
