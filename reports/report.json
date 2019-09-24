@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -48,8 +48,7 @@
               "location": "features\\step_definitions\\definitions1.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -61,8 +60,7 @@
               "location": "features\\step_definitions\\definitions1.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -97,7 +95,8 @@
               "location": "features\\step_definitions\\definitions1.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -109,8 +108,7 @@
               "location": "features\\step_definitions\\definitions1.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -216,7 +214,8 @@
               "location": "features\\step_definitions\\definitions1.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
